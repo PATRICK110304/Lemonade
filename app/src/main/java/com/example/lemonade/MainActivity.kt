@@ -50,7 +50,7 @@ class MainActivity : ComponentActivity() {
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun LemonAppWithButtonAndImage(modifier: Modifier = Modifier) {
-    // État conservant l'étape actuelle du processus (1 à 4)
+    // État conservant l'étape actuelle du processus (1 à 4).
     var etape by remember { mutableIntStateOf(1) }
 
     // État conservant le nombre de clics restants pour presser le citron à l'étape 2
